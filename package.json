@@ -1,0 +1,11 @@
+{
+  "name": "strcalc",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0",
+  "description": "parser",
+  "main": "index.js",
+  "author": "vyas",
+  "license": "ISC"
+}
