@@ -13,7 +13,7 @@ var calc = {
                 return undefined;
             } 
 
-            if(this.isFloat(result))
+            if(this.isFloat(result)) //no calculation in code
             {
                 var temp = result.toString().split('.');
                 var value = temp[1];

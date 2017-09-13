@@ -56,7 +56,7 @@ describe('string calculator', function () {
    });
 
    it('should return 45.5 for 1/2 + (5 + 4) * 5', function () {
-    should(calc.add("1/2 + (5 + 4) * 5")).equal(45.5);
+    should(calc.add("(1/2 + (5 + 4)) * 5")).equal(47.5);
    });
 
    it('should return 45.5 for 1/2    + (5 + 4) * 5', function () {
